@@ -5,7 +5,7 @@ import { educations,certifications } from "../data";
 export default function About() {
   return (
     <section id="about">
-      <div className="container px-5 py-10 mx-auto mb-10 mt-10 pl-20 pr-20">
+      <div className="container px-5 py-10 mx-auto md:mb-10 md:mt-10 md:pl-20 md:pr-20">
         <h2 className="text-4xl font-bold mb-5 border-b-[5px] w-[180px] border-amber-400 mt-10 pb-2 pl-2">
           About Me
         </h2>

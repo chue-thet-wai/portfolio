@@ -5,15 +5,15 @@ import { projects } from "../data";
 export default function Experiences() {
   return (
     <section id="experiences">
-      <div className="container px-5 py-10 mx-auto mb-10 mt-10 pl-20 pr-20">       
-        <h2 className="text-4xl font-bold mb-5 border-b-[5px] w-[370px] border-amber-400 pb-2 pt-5 mt-10">
-          Working Experiences
+      <div className="container px-5 py-10 mx-auto md:mb-10 md:mt-10 md:pl-20 md:pr-20">       
+        <h2 className="text-4xl font-bold mb-5 border-b-[5px] w-[150px] border-amber-400 pb-2 pt-5 mt-10">
+          Projects
         </h2>
         <p className="mb-10">
           Here are my production level projects.
         </p>
 
-        <div className="grid grid-cols-3 gap-5">
+        <div className="grid sm:grid-cols-1 md:grid-cols-3 gap-5">
           {projects.map((project) => (
             <div class="card mr-4 mb-4 border-2 border-color: border-amber-400">
                 <img

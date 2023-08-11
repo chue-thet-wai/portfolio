@@ -3,8 +3,8 @@ import React from "react";
 export default function Contact() {
   return (
     <section id="contact" className="relative">
-      <div className="container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap pl-20 pr-20">
-        <div className="lg:w-2/4 md:w-1/2 bg-gray-900 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
+      <div className="container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap md:pl-20 md:pr-20">
+        <div className="w-full h-[200px] md:h-auto lg:w-2/4 md:w-1/2 bg-gray-900 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
           <iframe
             width="100%"
             height="100%"
