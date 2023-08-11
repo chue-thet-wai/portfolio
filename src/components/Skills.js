@@ -14,7 +14,7 @@ export default function Skills() {
           ipsa delectus eum quo voluptas aspernatur accusantium distinctio
           possimus est.
         </p>
-        <div class="sm:grid-cols-1 md:grid-col-1 lg:columns-2 mt-5">
+        <div class="sm:grid-cols-1 md:grid-col-1 lg:grid-col-1 xl:columns-2 mt-5">
           <div>
             <div>
               <h1 className="sm:text-2xl text-1xl font-medium title-font text-black mb-4 text-center">
