@@ -6,7 +6,7 @@ export default function Skills() {
   return (
       <section id="skills">
       <div className="container px-5 py-10 mx-auto mb-10 mt-10 md:pl-20 md:pr-20">
-        <h2 className="text-4xl font-bold mb-5 border-b-[5px] md:w-[370px] border-amber-400 pb-2 pt-5 mt-10">
+        <h2 className="text-4xl font-bold mb-5 border-b-[5px] w-[250px] md:w-[370px]  border-amber-400 pb-2 pt-5 mt-10">
           Skills &amp; Technologies
         </h2>
         <p>
@@ -14,7 +14,7 @@ export default function Skills() {
           ipsa delectus eum quo voluptas aspernatur accusantium distinctio
           possimus est.
         </p>
-        <div class="sm:grid-cols-1 md:columns-2 mt-5">
+        <div class="sm:grid-cols-1 md:grid-col-1 lg:columns-2 mt-5">
           <div>
             <div>
               <h1 className="sm:text-2xl text-1xl font-medium title-font text-black mb-4 text-center">

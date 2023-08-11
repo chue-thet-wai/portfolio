@@ -28,7 +28,7 @@ export default function About() {
               Where I talk about programming theory and build various projects.
             </p>
           </div>
-          <div className="ml-5">
+          <div className="ml-5 mt-5 mb:mt-0">
             <h1 className="sm:text-2xl text-1xl font-medium title-font text-black mb-3">
               EDUCATION
             </h1>

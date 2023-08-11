@@ -13,7 +13,7 @@ export default function Experiences() {
           Here are my production level projects.
         </p>
 
-        <div className="grid sm:grid-cols-1 md:grid-cols-3 gap-5">
+        <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
           {projects.map((project) => (
             <div class="card mr-4 mb-4 border-2 border-color: border-amber-400">
                 <img
