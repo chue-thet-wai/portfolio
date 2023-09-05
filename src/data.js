@@ -44,6 +44,7 @@ export const projects = [
   export const technologies = [
     "PHP", 
     "MySQL", 
+    "React",
     "jQuery", 
     "JavaScript", 
     "Ajax", 

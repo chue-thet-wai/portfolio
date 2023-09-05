@@ -12,16 +12,16 @@ export default function About() {
         <div className="grid md:grid-cols-2 mb-5">
           <div className="mt-10">
             <p className="pb-5">
-              Hi, My Name Is Rohima Akther everyone calls me Amrin. I am a
-              Frontend Developer. I build beautifull websites with React and
-              Tailwind CSS.
+              Hi, My Name is Chue Chue Thet Wai. I have around 5 year of 
+              working experiences as web developer.
             </p>
             <p className="pb-5">
-              I am proficient in Frontend skills like React.js, Redux, Redux Tool
-              Kit, Axios, Tailwind CSS, SaSS, Css3 and many more.
+              I worked at "Myanmar Online Creations" company as a "Web Developer" about 3 half years.
+              In this company, I used PHP with Drupal framework , MySQL for database and HTML,CSS,JavaScript,
+              JQuery and Ajax for frontend.
             </p>
 
-            <p>In backend I know Node.js, Express.js, MongoDB, and Mongoose</p>
+            <p>In frontend I know React, Express.js, MongoDB, and Mongoose</p>
 
             <p>
               In my spare time I create YouTube videos and write blogs on my Blog.
