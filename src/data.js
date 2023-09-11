@@ -3,36 +3,29 @@ export const projects = [
       title: "Byscote",
       subtitle: "PHP with Drupal",
       description:"Portal for myanmar movies application",
-      image: "./f2.jpg",
+      image: "./portfolio/images/byscote.png",
       link: "https://play.google.com/store/apps/details?id=com.moc.byscote&gl=us",
     },
     {
       title: "Mojoenet",
       subtitle: "PHP with Drupal",
-      description:"Customer portal and backend ERP system to provide full automation for a Internet Service Provider.",
-      image: "./f2.jpg",
-      link: "https://reedbarger.com",
-    },
-    {
-      title: "Horizon Inernet",
-      subtitle: "PHP with Drupal",
-      description:"Customer portal and backend ERP system to provide full automation for a Internet Service Provider.",
-      image: "./f2.jpg",
-      link: "https://reedbarger.com",
-    },
-    {
-      title: "EZ-dingar",
-      subtitle: "PHP with Drupal",
-      description:"Payment Gateway",
-      image: "./f2.jpg",
-      link: "https://jsbootcamp.com",
+      description:"Portal to provide full automation for an Internet Service Provider.",
+      image: "./portfolio/images/mojoenet.png",
+      link: "https://mojoenet.com",
     },
     {
       title: "Bamawl HR Integration",
       subtitle: "Laravel and React",
       description:"System for support HR activities",
-      image: "./f2.jpg",
-      link: "https://pythonbootcamp.com",
+      image: "./portfolio/images/bamawl-hr.png",
+      link: "https://bamawl.cloudhr.co",
+    },
+    {
+      title: "EZ-dingar",
+      subtitle: "PHP with Drupal",
+      description:"Payment channel with QR Code used in Myanmar",
+      image: "./portfolio/images/ezdin-gar.png",
+      link: "https://ezdin-gar.com",
     }
   ];
   export const skills = [
@@ -44,15 +37,18 @@ export const projects = [
   export const technologies = [
     "PHP", 
     "MySQL", 
-    "React",
+    "React JS",
     "jQuery", 
     "JavaScript", 
     "Ajax", 
     "HTML", 
     "CSS", 
     "Bootstrap",
-    "SMS Brix" , 
-    "Git"
+    "Drupal", 
+    "Laravel",
+    "Git",
+    "SMS Brix",
+    "Payment Channel (2C2P)"
   ];
   export const languages = [
     "English(Intermediate)", 
@@ -72,11 +68,20 @@ export const projects = [
   ];
   export const certifications = [
     {
-      period : "2017",
-      name   : "Web Development Foundation Course"
+      period : "2016",
+      name   : "Mobile Application Training",
+      course : "(Samsung)"
     },
     {
-      period : "2016",
-      name   : "Mobile Application Training"
+      period : "2017",
+      name   : "Web Development Foundation Course",
+      course : "(NTG Technology)"
     },
+    {
+      period : "2022",
+      name   : "Laravel 8.X and 7.X from beginners to master",
+      course : "(Udemy)"
+    }
+    
   ];
+  

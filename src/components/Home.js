@@ -1,6 +1,5 @@
 import React from "react";
-import { AiOutlineLinkedin } from "react-icons/ai";
-import { AiOutlineFacebook } from "react-icons/ai";
+import { AiOutlineGithub, AiOutlineLinkedin } from "react-icons/ai";
 
 
 export default function Home() {
@@ -16,35 +15,36 @@ export default function Home() {
               src="./profile.jpg"
             />
           </div>
-          <h1 className="title-font sm:text-4xl text-3xl mb-4 font-bold text-black">
-            Hi, I'm Chue Thet Wai.
-          </h1>
-          <h1 className="title-font sm:text-4xl text-3xl mb-4 font-bold text-black">Web Developer</h1>
+          <h2 className="title-font sm:text-4xl text-3xl mb-4 font-bold text-black">
+            Chue Chue Thet Wai
+          </h2>
+          <h5 className="title-font sm:text-4xl text-3xl mb-4 font-bold text-black">Web Developer</h5>
           <p className="mb-3 leading-relaxed">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui
-            laborum quasi, incidunt dolore iste nostrum cupiditate voluptas?
-            Laborum, voluptas natus?
+            Web Developer with 4+ years of experience in development of multiple websites, optimizing software for
+            customer satisfactions and creating new features. Proficient in an assortment of technologies, including PHP,
+            React and MySQL. Able to effectively self-manage during independent projects, as well as collaborate in a team
+            setting.
           </p>
           <div className="flex py-5 ">
             <a
-              href="https://linkin.com/"
-              className="pr-4 inline-block text-accent hover:text-white"
+              href="https://www.linkedin.com/in/chue-chue-thet-wai-ba9878194"
+              className="pr-4 inline-block text-accent hover:text-gray-800"
             >
               {" "}
               <AiOutlineLinkedin size={40} />{" "}
             </a>
             <a
-              href="https://www.facebook.com/"
-              className="pr-4 inline-block text-accent hover:text-white"
+              href="https://github.com/chue-thet-wai"
+              className="pr-4 inline-block text-accent hover:text-gray-800"
             >
               {" "}
-              <AiOutlineFacebook size={40} />{" "}
+              <AiOutlineGithub size={40} />{" "}
             </a>
           </div>
           <div className="flex justify-center">
             <a
               href="#contact"
-              className="inline-flex text-white bg-amber-400 border-0 py-3 px-8 w-40 focus:outline-none hover:bg-green-600 rounded text-lg">
+              className="inline-flex text-white bg-amber-400 border-0 py-3 px-8 w-40 focus:outline-none hover:bg-amber-500 rounded text-lg">
               Contact Me
             </a>
             <a
@@ -52,16 +52,16 @@ export default function Home() {
               target="_blank"
               without
               rel="noreferrer"
-              className="ml-4 inline-flex text-white bg-amber-400 border-0 py-3 px-8 w-40 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">
+              className="ml-4 inline-flex text-white bg-amber-400 border-0 py-3 px-8 w-40 focus:outline-none hover:bg-amber-500 hover:text-white rounded text-lg">
               My Resume
             </a>
           </div>
         </div>
-        <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 hidden md:block">
+        <div className="lg:max-w-lg lg:w-full md:w-1/2 w-6/6 hidden md:block">
           <img
             className="object-cover object-center rounded scale-75"
             alt="hero"
-            src="./profile.jpg"
+            src="/portfolio/profile.jpg"
           />
         </div>
       </div>

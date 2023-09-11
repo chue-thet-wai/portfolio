@@ -12,35 +12,39 @@ export default function About() {
         <div className="grid md:grid-cols-2 mb-5">
           <div className="mt-10">
             <p className="pb-5">
-              Hi, My Name is Chue Chue Thet Wai. I have around 5 year of 
+              Hi, My name is "Chue Chue Thet Wai". I have 4+ years of 
               working experiences as web developer.
             </p>
             <p className="pb-5">
               I worked at "Myanmar Online Creations" company as a "Web Developer" about 3 half years.
-              In this company, I used PHP with Drupal framework , MySQL for database and HTML,CSS,JavaScript,
+              In this company, I used PHP with "Drupal" framework , MySQL for database and HTML,CSS,JavaScript,
               JQuery and Ajax for frontend.
             </p>
 
-            <p>In frontend I know React, Express.js, MongoDB, and Mongoose</p>
-
             <p>
-              In my spare time I create YouTube videos and write blogs on my Blog.
-              Where I talk about programming theory and build various projects.
-            </p>
+              Now, I have working at "Brycen Myanmar" company as a "Senior Web Developer" from 2022,Jun.
+              In this company, I write PHP with "Laravel" framework , MySQL for database and React JS for 
+              frontend.
+            </p>  
           </div>
-          <div className="ml-5 mt-5 mb:mt-0">
-            <h1 className="sm:text-2xl text-1xl font-medium title-font text-black mb-3">
-              EDUCATION
+
+          <div className="ml-10 mt-5 mb:mt-0">
+            <h1 className="sm:text-2xl text-1xl font-medium title-font text-black mb-3 mt-5">
+              EDUCATIONS
             </h1>
-            <div className="bg-amber-400 bg-opacity-80 p-5 rounded">
+            <div className="bg-amber-500 bg-opacity-80 p-5 rounded mr-5">
               {educations.map((education) => (                  
                 <div className="mb-3">
                   <span className="flex-grow flex flex-col">
-                    <span className="font-medium font-bold text-white">
+                    <span className="font-medium font-bold text-amber-700">
+                      <i>
                       {education.major}
+                      </i>
                     </span>
-                    <span className="text-sm font-bold text-red-600">
+                    <span className="text-sm font-bold text-white">
+                      <i>
                       {education.period}  [{education.name}]
+                      </i>
                     </span>
                   </span>
                 </div>
@@ -49,13 +53,11 @@ export default function About() {
             <h1 className="sm:text-2xl text-1xl font-medium title-font text-black mb-3 mt-3">
               CERTIFICATIONS
             </h1>           
-            <div className="full bg-amber-400 bg-opacity-80 p-5 rounded">
+            <div className="full bg-amber-500 bg-opacity-80 p-5 rounded mr-5">
               {certifications.map((certificate) => (                  
                 <div>
-                  <span className="flex-grow flex flex-col">
-                    <span className="title-font font-medium text-white">
-                      {certificate.period} : {certificate.name}
-                    </span>
+                  <span className="text-sm font-bold text-amber-600">
+                      {certificate.period} : {certificate.name} {certificate.course}
                   </span>
                 </div>                 
               ))}

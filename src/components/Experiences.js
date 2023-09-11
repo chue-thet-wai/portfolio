@@ -10,12 +10,13 @@ export default function Experiences() {
           Projects
         </h2>
         <p className="mb-10">
-          Here are my production level projects.
+          <b>Here are my production level projects.</b>
         </p>
 
         <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
           {projects.map((project) => (
             <div class="card mr-4 mb-4 border-2 border-color: border-amber-400">
+              <a href={project.link}>
                 <img
                   alt="project_image"
                   src={project.image}
@@ -25,6 +26,7 @@ export default function Experiences() {
                   <div className="pl-2"><b>Language &nbsp;&nbsp;:</b> {project.subtitle}</div>
                   <div className="pl-2"><b>Desctiption:</b> {project.description}</div>
                 </div>
+              </a>
             </div>
           ))}
         </div>

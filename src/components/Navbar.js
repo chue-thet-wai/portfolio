@@ -9,7 +9,7 @@ export default function Navbar() {
 
   return (
     <header className="bg-amber-400 sticky top-0 z-10">
-      <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row md:items-center">
+      <div className="container mx-auto flex flex-wrap p-4 flex-col md:flex-row md:items-center">
         <a className="hidden md:block title-font font-medium text-black mb-4 md:mb-0">
           <a href="#home" className="ml-3 text-xl">
             Home

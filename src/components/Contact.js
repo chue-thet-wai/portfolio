@@ -11,7 +11,7 @@ export default function Contact() {
             title="map"
             className="absolute inset-0"
             style={{ filter: "opacity(0.7)" }}
-            src="https://www.google.com/maps/embed/v1/place?q=97+warren+st+new+york+city&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d892.8008399342694!2d96.12250772811021!3d16.845468123689635!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30c19504d3b9d49d%3A0xbf520595738d191e!2sKyaung%20Kone%20St%203%2C%20Yangon%2C%20Myanmar!5e0!3m2!1sen!2smm!4v1694404178516!5m2!1sen!2smm"
           />
         </div>
         <div className="lg:w-2/4 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-10 mb-10 md:mt-0">
@@ -20,7 +20,7 @@ export default function Contact() {
           </h2>
           <br />
           <p className="leading-relaxed mb-5">
-            I am currently open for a fulltime Backend Developer role. If you
+            I am currently open for a fulltime Web Developer role. If you
             want to discuss about that feel free to email me or call me.
           </p>
           <br />
