@@ -3,28 +3,28 @@ export const projects = [
       title: "Byscote",
       subtitle: "PHP with Drupal",
       description:"Portal for myanmar movies application",
-      image: "./portfolio/images/byscote.png",
+      image: "./images/byscote.png",
       link: "https://play.google.com/store/apps/details?id=com.moc.byscote&gl=us",
     },
     {
       title: "Mojoenet",
       subtitle: "PHP with Drupal",
       description:"Portal to provide full automation for an Internet Service Provider.",
-      image: "./portfolio/images/mojoenet.png",
+      image: "./images/mojoenet.png",
       link: "https://mojoenet.com",
     },
     {
       title: "Bamawl HR Integration",
       subtitle: "Laravel and React",
       description:"System for support HR activities",
-      image: "./portfolio/images/bamawl-hr.png",
+      image: "./images/bamawl-hr.png",
       link: "https://bamawl.cloudhr.co",
     },
     {
       title: "EZ-dingar",
       subtitle: "PHP with Drupal",
       description:"Payment channel with QR Code used in Myanmar",
-      image: "./portfolio/images/ezdin-gar.png",
+      image: "./images/ezdin-gar.png",
       link: "https://ezdin-gar.com",
     }
   ];
