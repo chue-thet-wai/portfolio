@@ -10,9 +10,9 @@ export default function Home() {
           {/*Mobile View*/}
           <div className="sm:max-w-lg sm:w-full sm:w-1/2 w-5/6 block md:hidden">
             <img
-              className="object-cover object-center rounded scale-75"
+              className="object-cover object-center rounded scale-75 m-auto"
               alt="hero"
-              src="./profile.png"
+              src="./portfolio/profile.png"
               width="50%" height="50%"
             />
           </div>
@@ -60,9 +60,9 @@ export default function Home() {
         </div>
         <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 hidden md:block">
           <img
-            className="object-cover object-center rounded scale-75"
+            className="object-cover object-center rounded scale-75 m-auto"
             alt="hero"
-            src="/profile.png" width="50%" height="50%"
+            src="./portfolio/profile.png" width="50%" height="50%"
           />
         </div>
       </div>
