@@ -13,6 +13,7 @@ export default function Home() {
               className="object-cover object-center rounded scale-75"
               alt="hero"
               src="./profile.png"
+              width="50%" height="50%"
             />
           </div>
           <h2 className="title-font sm:text-4xl text-3xl mb-4 font-bold text-black">
