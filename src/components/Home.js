@@ -12,7 +12,7 @@ export default function Home() {
             <img
               className="object-cover object-center rounded scale-75"
               alt="hero"
-              src="./profile.jpg"
+              src="./profile.png"
             />
           </div>
           <h2 className="title-font sm:text-4xl text-3xl mb-4 font-bold text-black">
@@ -61,7 +61,7 @@ export default function Home() {
           <img
             className="object-cover object-center rounded scale-75"
             alt="hero"
-            src="/portfolio/profile.png" width="50%" height="50%"
+            src="/profile.png" width="50%" height="50%"
           />
         </div>
       </div>
