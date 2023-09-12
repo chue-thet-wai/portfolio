@@ -36,7 +36,7 @@ export default function About() {
               {educations.map((education) => (                  
                 <div className="mb-3">
                   <span className="flex-grow flex flex-col">
-                    <span className="font-medium font-bold text-amber-700">
+                    <span className="font-medium font-bold text-white">
                       <i>
                       {education.major}
                       </i>
@@ -56,7 +56,7 @@ export default function About() {
             <div className="full bg-amber-500 bg-opacity-80 p-5 rounded mr-5">
               {certifications.map((certificate) => (                  
                 <div>
-                  <span className="text-sm font-bold text-amber-600">
+                  <span className="text-sm font-bold text-white">
                       {certificate.period} : {certificate.name} {certificate.course}
                   </span>
                 </div>                 

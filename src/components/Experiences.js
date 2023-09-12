@@ -15,16 +15,17 @@ export default function Experiences() {
 
         <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
           {projects.map((project) => (
-            <div class="card mr-4 mb-4 border-2 border-color: border-amber-400">
+            <div class="card mr-4 mb-4 rounded overflow-hidden shadow-lg">
               <a href={project.link}>
                 <img
+                  class="w-full"
                   alt="project_image"
                   src={project.image}
                 />
-                <div className="p-2">
-                  <h1 className="text-black font-bold text-center mb-3">{project.title}</h1>
-                  <div className="pl-2"><b>Language &nbsp;&nbsp;:</b> {project.subtitle}</div>
-                  <div className="pl-2"><b>Desctiption:</b> {project.description}</div>
+                <div className="px-6 py-4">
+                  <h1 className="font-bold text-xl mb-2">{project.title}</h1>
+                  <div className="text-base"><b>Language &nbsp;&nbsp;:</b> {project.subtitle}</div>
+                  <div className="text-base"><b>Desctiption:</b> {project.description}</div>
                 </div>
               </a>
             </div>

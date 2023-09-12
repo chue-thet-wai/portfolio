@@ -48,7 +48,7 @@ export default function Home() {
               Contact Me
             </a>
             <a
-              href="https://drive.google.com/file/d/1QVkFbQd2d49adYMFPRJ3Zf4AnJt-DUCd/view"
+              href="https://drive.google.com/file/d/1QWdtZesfnxDCiAt6NrMDRX93nuZeo3l1/view"
               target="_blank"
               without
               rel="noreferrer"
@@ -57,11 +57,11 @@ export default function Home() {
             </a>
           </div>
         </div>
-        <div className="lg:max-w-lg lg:w-full md:w-1/2 w-6/6 hidden md:block">
+        <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 hidden md:block">
           <img
             className="object-cover object-center rounded scale-75"
             alt="hero"
-            src="/portfolio/profile.jpg"
+            src="/portfolio/profile.png" width="50%" height="50%"
           />
         </div>
       </div>

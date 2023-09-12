@@ -12,7 +12,24 @@ export default function Skills() {
         <p>
           <b>Here are my soft skills and technical skills.</b>
         </p>
-        <div class="sm:grid-cols-1 md:grid-col-1 lg:grid-col-1 xl:columns-2 mt-5">
+        <div className="sm:grid-cols-1 md:grid-col-1 lg:grid-col-1 xl:columns-2 mt-5">
+        <div>
+            <h1 className="sm:text-2xl text-1xl font-medium title-font text-black mb-4 text-center">
+              Technologies
+            </h1>
+            <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
+              {technologies.map((technology) => (
+                <div key={technology} className="p-2 sm:w-1/2 w-full">
+                  <div className="bg-amber-400 rounded flex p-4 h-full items-center">
+                    <BadgeCheckIcon className="text-black w-6 h-6 flex-shrink-0 mr-4" />
+                    <span className="title-font font-medium text-white">
+                      {technology}
+                    </span>
+                  </div>
+                </div>
+              ))}
+            </div>  
+          </div>  
           <div>            
             <h1 className="sm:text-2xl text-1xl font-medium title-font text-black mb-4 text-center">
               Skills
@@ -44,24 +61,7 @@ export default function Skills() {
                 </div>
               ))}
             </div>        
-          </div>                     
-          <div>
-            <h1 className="sm:text-2xl text-1xl font-medium title-font text-black mb-4 text-center">
-              Technologies
-            </h1>
-            <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
-              {technologies.map((technology) => (
-                <div key={technology} className="p-2 sm:w-1/2 w-full">
-                  <div className="bg-amber-400 rounded flex p-4 h-full items-center">
-                    <BadgeCheckIcon className="text-black w-6 h-6 flex-shrink-0 mr-4" />
-                    <span className="title-font font-medium text-white">
-                      {technology}
-                    </span>
-                  </div>
-                </div>
-              ))}
-            </div>  
-          </div>                
+          </div>                                   
         </div> 
       </div>       
     </section>
