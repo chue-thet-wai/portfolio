@@ -21,7 +21,7 @@ export default function Home() {
           </h2>
           <h5 className="title-font sm:text-4xl text-3xl mb-4 font-bold text-black">Web Developer</h5>
           <p className="mb-3 leading-relaxed">
-            Web Developer with 4+ years of experience in development of multiple websites, optimizing software for
+            Web Developer with 6 years of experience in development of multiple websites, optimizing software for
             customer satisfactions and creating new features. Proficient in an assortment of technologies, including PHP,
             React and MySQL. Able to effectively self-manage during independent projects, as well as collaborate in a team
             setting.
@@ -49,7 +49,7 @@ export default function Home() {
               Contact Me
             </a>
             <a
-              href="https://drive.google.com/file/d/1QWdtZesfnxDCiAt6NrMDRX93nuZeo3l1/view"
+              href="https://drive.google.com/file/d/17ng_coekNXorH_wZeeCst9HNmcVIBfQ5/view"
               target="_blank"
               without
               rel="noreferrer"

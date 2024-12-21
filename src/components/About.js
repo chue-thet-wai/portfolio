@@ -12,7 +12,7 @@ export default function About() {
         <div className="grid md:grid-cols-2 mb-5">
           <div className="mt-10">
             <p className="pb-5">
-              Hi, My name is "Chue Chue Thet Wai". I have 4+ years of 
+              Hi, My name is "Chue Chue Thet Wai". I have 6 years of 
               working experiences as web developer.
             </p>
             <p className="pb-5">
@@ -20,11 +20,15 @@ export default function About() {
               In this company, I used PHP with "Drupal" framework , MySQL for database and HTML,CSS,JavaScript,
               JQuery and Ajax for frontend.
             </p>
-
+            <p className="pb-5">
+              I worked at "Brycen Myanmar" company as a "Senior Web Developer" about 1 half years.
+              In this company, I used PHP with "Laravel" framework , MySQL for database and React Js
+              for frontend.
+            </p>  
             <p>
-              Now, I have working at "Brycen Myanmar" company as a "Senior Web Developer" from 2022,Jun.
-              In this company, I write PHP with "Laravel" framework , MySQL for database and React JS for 
-              frontend.
+              Now, I have working at "Techy Solutions" company as a "Senior Web Developer" from 2023,Nov.
+              In this company, I write PHP with "Laravel" framework , MySQL for database and React JS and Tailwind CSS
+              for frontend.
             </p>  
           </div>
 
